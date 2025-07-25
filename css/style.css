@@ -15,8 +15,9 @@ a {
 
 /* NavBar */
 .nav-logo {
-    font-family: "Ralewey", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -53,6 +54,10 @@ a {
 .nav-address-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.nav-address-link:hover {
     color: #404bbf;
 }
 
