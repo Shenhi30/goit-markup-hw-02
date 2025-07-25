@@ -1,5 +1,6 @@
 body {
-    font-family: "Roboto", "sans-serif";
+    font-family: "Roboto", sans-serif;
+    color: #434455;
     background-color: #FFFFFF;
 }
 
@@ -20,15 +21,40 @@ a {
     text-decoration: none;
 }
 
+/* NavBar */
+nav-logo {
+    font-family: "Ralewey", sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+nav-logo-gradient {
+    color: #2e2f42;
+}
+
 .nav-link {
     color: #2e2f42;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .nav-link:hover {
     color: #404bbf;
 }
 
-.nav-studio:active {
+.nav-link:focus {
     color: #404bbf;
-    text-decoration: underline;
+}
+
+.nav-address {
+    font-style: normal;
+}
+
+.nav-address-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #404bbf;
 }
