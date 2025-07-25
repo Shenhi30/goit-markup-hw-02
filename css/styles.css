@@ -1,0 +1,34 @@
+body {
+    font-family: "Roboto", "sans-serif";
+    background-color: #FFFFFF;
+}
+
+/* button */
+.hero-btn {
+    cursor: pointer;
+    color: white;
+    background-color: #4d5ae5;
+}
+
+.hero-btn:hover {
+    cursor: pointer;
+    background-color: #404bbf;
+}
+
+/* anchors */
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #2e2f42;
+}
+
+.nav-link:hover {
+    color: #404bbf;
+}
+
+.nav-studio:active {
+    color: #404bbf;
+    text-decoration: underline;
+}
